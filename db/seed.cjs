@@ -156,12 +156,7 @@ const syncAndSeed = async() => {
   await createMeal(`Beef Pad Thai`, `lowcal`, 470, `quackracer6`);
   await createMeal(`Sheet Pan Steak, Potatoes & Asparagus`, `lowcal`, 490, `joecallahan`);
 
-<<<<<<< HEAD
   await createProfile(`rob.roblaw`, `r0br0bl@wsr0bbl0g`, `Rob Roblaw`, 64, 180, 32, `male`);
-  await createProfile(`joecallahan`, `grizzly`, `Joe Callahan`, 70, 260, 34, `male`);
-  await createProfile(`yoganstuff`, `meditate`, `Jim Yoga`, 72, 175, 40, `male`);
-=======
-  await createProfile(`test`, `password`, `Test User`, 64, 130, 85, `female`);
   await createProfile(`gymyoga`, `meditate`, `Jim Yoga`, 72, 175, 40, `male`);
 
   await createLog(`test`, 4, 31, 5, 12, 525, 30, `2025-03-10`);
@@ -170,7 +165,6 @@ const syncAndSeed = async() => {
   await createLog(`test`, 3, 10, null, null, null, 60, `2025-03-13`);
   await createLog(`test`, 12, 22, null, null, null, 60, `2025-03-14`);
   await createLog(`test`, 30, 30, 7, 21, 50, 30, `2025-03-15`);
->>>>>>> 81a14ca (added seeds for logs and cleaned up unused server endpoints)
 
   await client.end();
 }
