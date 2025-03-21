@@ -156,6 +156,7 @@ const syncAndSeed = async() => {
   await createMeal(`Philly Cheesesteak Stuffed Peppers`, `protein`, 450, `swollpatrol`);
   await createMeal(`Beef Pad Thai`, `lowcal`, 470, `quackracer6`);
   await createMeal(`Sheet Pan Steak, Potatoes & Asparagus`, `lowcal`, 490, `joecallahan`);
+  await createMeal(`Oreos`, `Cheat Day!`, 650, 'bad.influence')
 
   await createProfile(`rob.roblaw`, `r0br0bl@wsr0bbl0g`, `Rob Roblaw`, 64, 180, 32, `male`);
   await createProfile(`gymyoga`, `meditate`, `Jim Yoga`, 72, 175, 40, `male`);
